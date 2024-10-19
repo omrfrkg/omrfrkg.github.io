@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Kişisel Web Sayfam</title>
+        <!--<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />-->
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+
+        <style>
+            /* Slider'ın genel stili */
+            .slider-container {
+                width: 60%;
+                max-width: 250px;
+                margin: 50px auto;
+                position: relative;
+                overflow: hidden;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+    
+            .slider-images {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+            }
+    
+            .slider-images img {
+                width: 100%;
+                border-radius: 10px;
+            }
+    
+            /* Önceki ve sonraki butonlar */
+            .prev, .next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background-color: transparent;
+                color: black;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                font-size: 18px;
+                border-radius: 50%;
+            }
+    
+            .prev {
+                left: 10px;
+            }
+    
+            .next {
+                right: 10px;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Ömer Faruk Gündoğdu</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../src/assets/img/profil.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Hakkımda</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Deneyimlerim</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Akademik Geçmişim</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Yeteneklerim</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Sertifikalarım</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projelerim</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Ömer Faruk
+                        <span class="text-primary">Gündoğdu</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        <h3>Telefon Numarası :</h3>
+                        <p>+90 538 602 75 67</p>
+                        <h3>Adres :</h3>
+                        <p>Yeni Mahalle · 3160 Sokak · Eşref Apartmanı · No : 12 · Atakum / Samsun</p>
+                        <h3>Mail Adresi :</h3>
+                        <a href="mailto:name@email.com">omerrfarukgundogdu@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Mobil Uygulama Geliştirme alanıyla ilgileniyorum. Java, Kotlin ve React Native dillerinde ufak çaplı çalışmalar yaptım. Şuan halihazırda React Native dili üzerinde bir takım çalışmalar yapıyorum.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/omrfrkg/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/omrfrkg" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Deneyimlerim</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Geliştirici - Stajyer</h3>
+                            <div class="subheading mb-3">Webbeyaz Teknoloji Şirketi</div>
+                            <p>Webbeyaz adlı firmada web geliştirme bölümünde PHP, Html, Css, JavaScript ve Bootstrap araçlarını kullanarak dinamik bir web sitesi projesi geliştirdim.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Ekim 2023 - Kasım 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Yazılım Geliştirici - Stajyer</h3>
+                            <div class="subheading mb-3">Atakum Belediyesi</div>
+                            <p>Atakum Belediyesinin Yazılım biriminde web geliştirme ve server alanında çalışmalar yaparak stajımı gerçekleştirdim.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Temmuz 2019 - Ağustos 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Akademik Geçmişim</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bilgisayar Muhendisligi</h3>
+                            <div class="subheading mb-3">Ataturk Universitesi</div>
+                            <p>AGNO: 3.11</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Eylül 2020 - Haziran 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bilgisayar Programciligi</h3>
+                            <div class="subheading mb-3">Ondokuz Mayıs Universitesi</div>
+                            <p>AGNO: 3.45</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Eylül 2018 - Haziran 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Yeteneklerim</h2>
+                    <div class="subheading mb-3">Programlama Dilleri & Araçlar</div>
+                    <ul class="list-inline dev-icons">
+                        
+                        <li class="list-inline-item"><i class="fa-solid fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-git"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-python"></i></li>
+                        <li class="list-inline-item"><i class="devicon-kotlin-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-java-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-bootstrap-plain-wordmark"></i></li>
+
+                    </ul>
+                    <div class="subheading mb-3">Çalışmalar Yaptığım Alanlar</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobil Geliştirme, React - Native
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobil Geliştirme, Kotlin
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobil Geliştirme, Java
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Web Geliştirme, ASP.NET
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Sertifikalarım</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2024 - Turkcell Geleceği Yazanlar - <a href="https://drive.google.com/file/d/1y6bDAeDriufjGtbqQwcNz1CYnI069bTr/view" target="_blank">React Native 101</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2024 - Turkcell Geleceği Yazanlar - <a href="https://drive.google.com/file/d/1g_2Q84bYZslFt5Mwm7vh2M_88nTLwHXM/view" target="_blank">React Native 201</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2024 - Turkcell Geleceği Yazanlar - <a href="https://drive.google.com/file/d/17-elizR2scP-vriAWRRTBGoGwA98xUA0/view" target="_blank">React Native 301</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2024 - BTK Akademi - <a href="https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=0Kohz2eJOJ" target="_blank">Versiyon Kontrolleri: Git ve GitHub</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2024 - BTK Akademi - <a href="https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=8jmhLnej4d" target="_blank">Kotlin ile Android Mobil Uygulama Geliştirme İleri Seviye</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2022 - BTK Akademi - <a href="https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=zXztalDZ7P" target="_blank">Kotlin ile Android Mobil Uygulama Geliştirme Temel Seviye</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Projects-->
+            <hr class="m-0" />
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projelerim</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Youtube Clone App</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - React Native <h3><a href="https://github.com/omrfrkg/YoutubeClone" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>Youtube ara yüzünün tasarımını içeren mini bir mobil uygulama.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Ekim 2024</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <video width="100%" height="100%" controls>
+                            <source src="/src/assets/video/YoutubeClone/youtubeClone.mp4" type="video/mp4">
+                            Tarayıcınız video formatını desteklemiyor.
+                        </video>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Food Delivery App</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - React Native <h3><a href="https://github.com/omrfrkg/FoodDeliveryApp" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>İçerisinde çeşitli restoranlar bulunduran ve bu restoranlarda ki ürünleri sepete ekleme ve çıkarma işlemlerini de barındıran mini bir online restoran uygulaması.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Ekim 2024</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <video width="100%" height="100%" controls>
+                            <source src="/src/assets/video/FoodDeliveryApp/foodDeliveryApp.mp4" type="video/mp4">
+                            Tarayıcınız video formatını desteklemiyor.
+                        </video>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Weather App</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - React Native <h3><a href="https://github.com/omrfrkg/WeatherApp" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>Api yardımıyla dilediğimiz şehrin günlük ve haftalık hava durumunu gösteren basit bir mobil uygulama.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Ekim 2024</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <video width="100%" height="100%" controls>
+                            <source src="/src/assets/video/WeatherApp/weatherApp.mp4" type="video/mp4">
+                            Tarayıcınız video formatını desteklemiyor.
+                        </video>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Movie App</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - React Native <h3><a href="https://github.com/omrfrkg/MovieApp" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>Kullanıcıya vizyonda, popüler ve yakında gelecek olan filmleri listeleyen, bu filmlerle alakalı bilgiler veren ve filmde oynayan oyuncular hakkında bilgi edinebileceğimiz basit bir mobil uygulama.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Ekim 2024</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <video width="100%" height="100%" controls>
+                            <source src="/src/assets/video/MovieApp/movieApp.mp4" type="video/mp4">
+                            Tarayıcınız video formatını desteklemiyor.
+                        </video>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Vote App</h3>
+                            
+                            <div class="subheading mb-3">Mobil Uygulama - React Native <h3><a href="https://github.com/omrfrkg/VoteApp" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            
+                            <p>Kullanıcıların eş zamanlı şekilde anket oluşturup kayıtlı kullanıcılarında aynı zamanda bu ankete oy verebileceği bir mobil uygulama.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Eylül 2024</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider-images">
+                            <img src="/src/assets/image/VoteApp/1.jpg" alt="Vote App Image 1">
+                            <img src="/src/assets/image/VoteApp/2.jpg" alt="Vote App Image 2">
+                            <img src="/src/assets/image/VoteApp/3.jpg" alt="Vote App Image 3">
+                            <img src="/src/assets/image/VoteApp/4.jpg" alt="Vote App Image 4">
+                            <img src="/src/assets/image/VoteApp/5.jpg" alt="Vote App Image 5">
+                            <img src="/src/assets/image/VoteApp/6.jpg" alt="Vote App Image 6">
+                            <img src="/src/assets/image/VoteApp/7.jpg" alt="Vote App Image 7">
+                            <img src="/src/assets/image/VoteApp/8.jpg" alt="Vote App Image 8">
+                            <img src="/src/assets/image/VoteApp/9.jpg" alt="Vote App Image 9">
+                            <img src="/src/assets/image/VoteApp/10.jpg" alt="Vote App Image 10">
+                        </div>
+                        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Restaurant App</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - React Native <h3><a href="https://github.com/omrfrkg/RestaurantApp" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>API aracılığıyla belli bir lokasyondaki istediğimiz ürünü aratarak ilgili restaurantları belirli bir sıraya göre ekranda listeyen ve ilgili restaurantın durumunu gösteren mini bir mobil uygulama.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Eylül 2024</span></div>
+                    </div> 
+                    <div class="slider-container">
+                        <img src="/src/assets/image/RestaurantApp/1.gif" alt="Project 2 - GIF" style="width: 250px; height: auto;">
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Film Oneri Uygulaması</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - Kotlin <h3><a href="https://github.com/omrfrkg/FilmOneriUygulamasi" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>Kullanıcıya dilediği kategoride izleyebileceği film öneren ve bu film hakkında çeşitli bilgiler sunan kullanıcıda önerilen filmi beğendiği takdirde önerilen filmi unutmamak adına favorilerine ekleyebilmesine imkan tanıyan mobil uygulama.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Mayıs 2023</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <video width="100%" height="100%" controls>
+                            <source src="/src/assets/video/FilmOneriUygulamasi/film.mp4" type="video/mp4">
+                            Tarayıcınız video formatını desteklemiyor.
+                        </video>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cartman'ı Yakala</h3>
+                            <div class="subheading mb-3">Mobil Uygulama - Java <h3><a href="https://github.com/omrfrkg/CatchTheCartmanAndFriends" target="_blank" style="text-decoration: none;"><i class="devicon-github-original-wordmark colored"></i></a></h3></div>
+                            <p>South Park karakterlerinden Cartman, Kenny, Kyle ve Stan karakterlerini barındıran el göz koordinasyonunu geliştirmeyi ve aynı zamanda eğlendirmeyi hedefleyen mobil uygulama.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Eylül 2023</span></div>
+                    </div>
+                    <div class="slider-container">
+                        <img src="/src/assets/image/CatchTheCartman/cartman.gif" alt="Project 3 - GIF" style="width: 250px; height: auto;">
+                    </div>
+                        <h3 style="text-align: center;"><a href="https://github.com/omrfrkg">Daha fazlası icin...</a></h3>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+            let currentIndex = 0;
+    
+            function showSlide(index) {
+                const slides = document.querySelector('.slider-images');
+                const totalSlides = slides.children.length;
+    
+                if (index >= totalSlides) {
+                    currentIndex = 0;
+                } else if (index < 0) {
+                    currentIndex = totalSlides - 1;
+                } else {
+                    currentIndex = index;
+                }
+    
+                const offset = -currentIndex * 100;
+                slides.style.transform = `translateX(${offset}%)`;
+            }
+    
+            function moveSlide(direction) {
+                showSlide(currentIndex + direction);
+            }
+    
+            // Otomatik geçiş için
+            setInterval(() => {
+                moveSlide(1);
+            }, 5000); // 3 saniyede bir geçiş
+        </script>
+    </body>
+</html>
